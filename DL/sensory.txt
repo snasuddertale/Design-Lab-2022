@@ -1,0 +1,4 @@
+SHT31-DIS ok
+SCD42 ok
+TGS 3870-B00 ok
+STH31 

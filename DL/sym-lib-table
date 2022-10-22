@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SCD42-D-R2")(type "Legacy")(uri "/home/mihau/Downloads/LIB_SCD42-D-R2/SCD42-D-R2/KiCad/SCD42-D-R2.lib")(options "")(descr ""))
+  (lib (name "TGS3870-B00")(type "Legacy")(uri "/home/mihau/Downloads/LIB_TGS3870-B00/TGS3870-B00/KiCad/TGS3870-B00.lib")(options "")(descr ""))
+)
