@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP6V96UT_E_OT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP6V96UT-E/OT" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "579-MCP6V96UT-E/OT", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6V96UT-E-OT?qs=eP2BKZSCXI7wg5HJomhF4A%3D%3D", "MICROCHIP - MCP6V96UT-E/OT - Operational Amplifier, 1 Amplifier, 10 MHz, 9.5 V/s, 2.4V to 5.5V, SOT-23, 5 Pins", "", "1.45 mm"
+END_PART
+
+END.

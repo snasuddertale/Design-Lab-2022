@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SCD42DR2"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SCD42DR2")
+        (spec "default")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Sensirion
+PartNumber=SCD42-D-R2
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=21
+Version=1.3
+Released=2022-06-08 03:51:31
+Downloaded=2022-10-17 09:00:27
+3D=Y

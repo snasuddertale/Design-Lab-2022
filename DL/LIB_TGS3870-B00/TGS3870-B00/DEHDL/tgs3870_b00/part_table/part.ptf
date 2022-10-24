@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TGS3870_B00'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Figaro", "TGS3870-B00" (!) = "", "TGS3870B00", "Other", "", "", "", "", "", "", "Figaro TGS3870-B00, Air Quality Sensor for Combination Methane & Carbon Monoxide Detectors", "https://docs.rs-online.com/5410/0900766b815a66cf.pdf", "13.5 mm"
+END_PART
+
+END.

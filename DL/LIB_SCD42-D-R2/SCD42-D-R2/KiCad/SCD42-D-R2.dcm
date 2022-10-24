@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCD42-D-R2
+D Air Quality Sensors CO2 Sensor for US HVAC applications
+K
+F https://sensirion.com/media/documents/BD775C74/623DE486/CD_DS_SCD42_Datasheet_D1.pdf
+$ENDCMP
+#
+#End Doc Library

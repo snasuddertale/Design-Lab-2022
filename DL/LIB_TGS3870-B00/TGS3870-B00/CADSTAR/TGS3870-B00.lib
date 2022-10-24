@@ -1,0 +1,19 @@
+.TGS3870-B00 :1 ;Figaro TGS3870-B00, Air Quality Sensor for Combination Methane & Carbon Monoxide Detectors
+TGS3870B00
+*STM IC
+*NGS
+*PLB 1="COMMON(-)" 2="SENSOR ELECTRODE (+)" 3="HEATER(+)"
+*MXP 3
+*DFN TGS3870-B00
+~!Manufacturer_Name (Figaro)
+~!Manufacturer_Part_Number (TGS3870-B00)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://docs.rs-online.com/5410/0900766b815a66cf.pdf)
+~!Height (13.5mm)
+TGS3870-B00
+1.1!U 2.1!U 3.1!U 

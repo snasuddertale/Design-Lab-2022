@@ -1,0 +1,9 @@
+Manufacturer=Figaro
+PartNumber=TGS3870-B00
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.4
+Released=2022-03-31 11:24:56
+Downloaded=2022-10-17 09:04:58
+3D=N

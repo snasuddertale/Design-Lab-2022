@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP6V96UT-E_OT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-11-29-10:18:46)
+    (mountForm default
+        (footprintRef "SOT95P280X145-5N")
+        (spec "System")
+    )
+)

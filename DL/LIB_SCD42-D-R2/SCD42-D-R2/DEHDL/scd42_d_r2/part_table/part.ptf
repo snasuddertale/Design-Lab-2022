@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SCD42_D_R2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Sensirion", "SCD42-D-R2" (!) = "", "SCD42DR2", "Other", "403-SCD42-D-R2", "https://www.mouser.co.uk/ProductDetail/Sensirion/SCD42-D-R2?qs=A6eO%252BMLsxmSRIzSbnJAIXA%3D%3D", "SCD42-D-R2", "https://www.arrow.com/en/products/scd42-d-r2/sensirion-ag?region=nac", "", "", "Air Quality Sensors CO2 Sensor for US HVAC applications", "https://sensirion.com/media/documents/BD775C74/623DE486/CD_DS_SCD42_Datasheet_D1.pdf", "6.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TGS3870B00"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TGS3870B00")
+        (spec "default")
+    )
+)

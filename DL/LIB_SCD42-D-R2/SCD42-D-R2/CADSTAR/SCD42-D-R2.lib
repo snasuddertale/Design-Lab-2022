@@ -1,0 +1,20 @@
+.SCD42-D-R2 :1 ;Air Quality Sensors CO2 Sensor for US HVAC applications
+SCD42DR2
+*STM IC
+*NGS
+*PLB 1="DNC_1" 2="DNC_2" 3="DNC_3" 4="DNC_4" 5="DNC_5" 6="GND_1" 7="VDD" 8="DNC_6" 9="SCL" 10="SDA" 11="DNC_7" 12="DNC_8" 13="DNC_9" 14="DNC_10" 15="DNC_11" 16="DNC_12" 17="DNC_13" 18="DNC_14" 19="VDDH" 20="GND_2" 21="GND_3"
+*MXP 21
+*DFN SCD42-D-R2
+~!Manufacturer_Name (Sensirion)
+~!Manufacturer_Part_Number (SCD42-D-R2)
+~!Mouser Part Number (403-SCD42-D-R2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Sensirion/SCD42-D-R2?qs=A6eO%252BMLsxmSRIzSbnJAIXA%3D%3D)
+~!Arrow Part Number (SCD42-D-R2)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/scd42-d-r2/sensirion-ag?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://sensirion.com/media/documents/BD775C74/623DE486/CD_DS_SCD42_Datasheet_D1.pdf)
+~!Height (6.8mm)
+~!3D_Model (SCD42-D-R2)
+SCD42-D-R2
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 

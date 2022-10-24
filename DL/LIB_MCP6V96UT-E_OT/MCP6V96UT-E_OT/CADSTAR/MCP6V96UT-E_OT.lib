@@ -1,0 +1,16 @@
+.MCP6V96UT-E_OT :1 ;MICROCHIP - MCP6V96UT-E/OT - Operational Amplifier, 1 Amplifier, 10 MHz, 9.5 V/s, 2.4V to 5.5V, SOT-23, 5 Pins
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VIN+" 2="VSS" 3="VIN-" 4="VOUT" 5="VDD"
+*MXP 5
+*DFN MCP6V96UT-E_OT
+~!Mouser Part Number (579-MCP6V96UT-E/OT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6V96UT-E-OT?qs=eP2BKZSCXI7wg5HJomhF4A%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP6V96UT-E/OT)
+~!Link Datasheet (-)
+~!Height (1.45mm)
+~!3D_Model (MCP6V96UT-E_OT)
+MCP6V96UT-E_OT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP6V96UT-E/OT
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=2.1
+Released=2022-05-26 13:33:57
+Downloaded=2022-10-23 21:33:47
+3D=Y

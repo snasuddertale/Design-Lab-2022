@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TGS3870-B00
+D Figaro TGS3870-B00, Air Quality Sensor for Combination Methane & Carbon Monoxide Detectors
+K
+F https://docs.rs-online.com/5410/0900766b815a66cf.pdf
+$ENDCMP
+#
+#End Doc Library
