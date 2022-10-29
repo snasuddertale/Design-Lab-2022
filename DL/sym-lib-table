@@ -3,4 +3,5 @@
   (lib (name "TGS3870-B00")(type "Legacy")(uri "${KIPRJMOD}/LIB_TGS3870-B00/TGS3870-B00/KiCad/TGS3870-B00.lib")(options "")(descr ""))
   (lib (name "SCD42-D-R2")(type "Legacy")(uri "${KIPRJMOD}/LIB_SCD42-D-R2/SCD42-D-R2/KiCad/SCD42-D-R2.lib")(options "")(descr ""))
   (lib (name "MCP6V96UT-E_OT")(type "Legacy")(uri "${KIPRJMOD}/LIB_MCP6V96UT-E_OT/MCP6V96UT-E_OT/KiCad/MCP6V96UT-E_OT.lib")(options "")(descr ""))
+  (lib (name "IE0305S")(type "Legacy")(uri "${KIPRJMOD}/IE0305S/IE0305S.lib")(options "")(descr ""))
 )
