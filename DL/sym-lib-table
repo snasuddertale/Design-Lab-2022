@@ -4,4 +4,5 @@
   (lib (name "SCD42-D-R2")(type "Legacy")(uri "${KIPRJMOD}/LIB_SCD42-D-R2/SCD42-D-R2/KiCad/SCD42-D-R2.lib")(options "")(descr ""))
   (lib (name "MCP6V96UT-E_OT")(type "Legacy")(uri "${KIPRJMOD}/LIB_MCP6V96UT-E_OT/MCP6V96UT-E_OT/KiCad/MCP6V96UT-E_OT.lib")(options "")(descr ""))
   (lib (name "IE0305S")(type "Legacy")(uri "${KIPRJMOD}/IE0305S/IE0305S.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/KiCad-RP-Pico-main/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
 )
