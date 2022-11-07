@@ -5,4 +5,5 @@
   (lib (name "TGS5141-P00")(type "KiCad")(uri "${KIPRJMOD}/IC_Figaro_TGS5141-P00/eec.pretty")(options "")(descr ""))
   (lib (name "IE0305S")(type "KiCad")(uri "${KIPRJMOD}/IE0305S")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/KiCad-RP-Pico-main/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "TGS3870B00")(type "KiCad")(uri "${KIPRJMOD}/LIB_TGS3870-B00/TGS3870-B00/KiCad/TGS3870B00.pretty")(options "")(descr ""))
 )
