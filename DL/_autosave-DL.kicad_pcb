@@ -2444,7 +2444,7 @@
     )
   )
 
-  (gr_rect (start 21.59 17.78) (end 119.38 134.62) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 58510c80-b3a0-40d2-8b73-9b497f96e0d2))
+  (gr_rect (start 21.59 17.78) (end 101.854 168.148) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 58510c80-b3a0-40d2-8b73-9b497f96e0d2))
 
   (segment (start 41.91 74.93) (end 41.91 77.47) (width 0.25) (layer "F.Cu") (net 1) (tstamp 03cf6385-25b9-40a4-8be4-6aaffafd15d3))
   (segment (start 68.115 115.57) (end 66.04 115.57) (width 0.25) (layer "F.Cu") (net 1) (tstamp 05f605a7-2354-4737-ac93-fbb1e7d66102))
@@ -2689,8 +2689,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 121.412 136.144)
-        (xy 19.304 136.144)
+        (xy 121.412 173.736)
+        (xy 19.304 173.736)
         (xy 20.32 16.51)
         (xy 121.666 15.494)
       )
@@ -2702,8 +2702,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 121.412 136.144)
-        (xy 19.304 136.144)
+        (xy 121.412 174.244)
+        (xy 19.304 174.244)
         (xy 20.066 16.51)
         (xy 121.412 15.748)
       )

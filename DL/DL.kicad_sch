@@ -1592,7 +1592,6 @@
     )
   )
 
-
   (junction (at 200.66 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 01982fba-98b3-4e50-8106-107927ccdd73)
   )
@@ -3232,7 +3231,7 @@
     (uuid 26594f1e-3b5e-4021-8e0c-786418d248ea)
     (property "Reference" "J7" (id 0) (at 161.29 226.06 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 161.29 228.6 0))
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm" (id 2) (at 156.21 217.17 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 156.21 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 217.17 0)
@@ -3303,7 +3302,7 @@
     (uuid 28a0d66b-225f-4687-8baa-de09bbae42c9)
     (property "Reference" "J4" (id 0) (at 163.83 189.23 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 165.1 191.77 0))
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm" (id 2) (at 156.21 199.39 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 156.21 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 199.39 0)
@@ -3325,7 +3324,7 @@
     (property "Value" "Conn_01x05_Male" (id 1) (at 128.27 223.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm" (id 2) (at 153.67 217.17 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 153.67 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 217.17 0)
@@ -3921,7 +3920,7 @@
     (property "Value" "Buzzer" (id 1) (at 135.89 199.3899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 131.445 195.58 90)
+    (property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (id 2) (at 131.445 195.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 131.445 195.58 90)
@@ -4295,7 +4294,7 @@
     (property "Value" "Conn_01x05_Male" (id 1) (at 137.16 207.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm" (id 2) (at 153.67 199.39 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 153.67 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 199.39 0)
@@ -4654,16 +4653,16 @@
       (reference "J3") (unit 1) (value "SD_Card") (footprint "Connector_Card:SD_Kyocera_145638009211859+")
     )
     (path "/28a0d66b-225f-4687-8baa-de09bbae42c9"
-      (reference "J4") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm")
+      (reference "J4") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/dae455e4-a8af-446d-ab52-70704fff5030"
-      (reference "J5") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm")
+      (reference "J5") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/29359ae9-8374-4a11-b0a3-dfa0d8e92e98"
-      (reference "J6") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm")
+      (reference "J6") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/26594f1e-3b5e-4021-8e0c-786418d248ea"
-      (reference "J7") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_Wire:SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm")
+      (reference "J7") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/23340a14-6fb7-45a0-8140-5e7e3b27828d"
       (reference "PS1") (unit 1) (value "IE0305S") (footprint "IE0305S:CONV_IE0305S")
