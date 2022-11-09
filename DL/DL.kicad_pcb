@@ -143,7 +143,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 075d9c19-4714-4a37-add5-ed387775c362)
-    (at 42.148 87.625)
+    (at 81.788 85.09 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -172,9 +172,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 624c20ff-5a8c-4a94-9266-523be637b0d0))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 749b0cd1-9817-4dbc-8ecb-90eba3fae1cd))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 78907cde-bfe8-4101-80c5-95ccd4009f35))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 33 "Net-(J4-Pad2)") (pintype "passive") (tstamp efaecad8-933e-41c4-b5fa-092353c54404))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 48 "GP13{slash}SPI_CSn1{slash}I2C_SCL0{slash}UART_RX0") (pintype "passive") (tstamp b889c3a4-e692-4552-b7ab-55bc9350eed7))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -185,7 +185,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 08b6e2c8-b367-4da0-b425-20ef2b247257)
-    (at 38.608 90.165 180)
+    (at 85.36 87.63 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -238,7 +238,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0bd29bdf-c723-4605-a3ea-768bf625a2eb)
-    (at 36.576 67.088 90)
+    (at 25.4 61.2435 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -267,9 +267,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 5b73cc6f-06a2-4a48-93ef-0ef5837ae5a6))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp a13f7407-d36e-4909-84a4-812210c2d04b))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp ea7bd84f-b9ae-4864-ad2a-eba74cf66408))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 1 "+3.3V") (pintype "passive") (tstamp 9893025b-4b11-4007-80bb-2759de9eced8))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 27 "GP8{slash}SPI_RX1{slash}I2C_SDA0{slash}UART_TX1") (pintype "passive") (tstamp 59e39474-671f-4b42-a639-d8787d274113))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -280,7 +280,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 27c50f9e-e8ad-495a-aaa0-04aa3b1a755b)
-    (at 86.868 53.604)
+    (at 85.344 61.478)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -429,7 +429,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 35794c4c-fae1-4492-925e-b26173a85519)
-    (at 26.608 67.056 90)
+    (at 35.368 61.2755 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -458,9 +458,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp a82d4221-36d1-4030-8689-9375355e82c5))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp cf6fa7df-9a2a-4085-bfe3-ade94a8eaf30))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp cf86a402-707f-4e23-a988-c5efd2e79d76))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 1 "+3.3V") (pintype "passive") (tstamp 87b0b752-8bb6-4e73-bbfc-b0b38e4ce7f1))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 25 "GP7{slash}SPI_TX0{slash}I2C_SCL1") (pintype "passive") (tstamp dc1cec0d-ce12-4669-a834-5e9de3ec5482))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -734,7 +734,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4d1c4b60-7bb7-4c77-b56e-8ff87545eff6)
-    (at 24.13 67.056 90)
+    (at 37.846 61.2755 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -763,9 +763,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp d1e1a17b-9171-4844-b7fe-abba23820a1d))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp df2d80e9-d957-4b61-847a-fd32502f2568))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp e7cc69d8-5625-4194-8978-4cb7fda0a625))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 1 "+3.3V") (pintype "passive") (tstamp fb4085a5-b1da-42be-9e3f-d0b0c205c42d))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 24 "GP9{slash}SPI_CSn1{slash}I2C_SCL0{slash}UART_RX1") (pintype "passive") (tstamp dcda7160-c3e2-49f2-9b42-6a6f10d3998f))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -776,7 +776,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5e132ece-978a-4ed2-96d2-7bc7057d7641)
-    (at 42.148 82.545)
+    (at 81.788 80.01 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -805,9 +805,9 @@
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 5f004e8b-4b23-4350-b18f-530668686402))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp f6403ae0-f86e-46f5-8c56-a1d87a8c1884))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp fb559511-c7eb-4a3e-932a-d5f515a7547d))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 35 "Net-(J4-Pad4)") (pintype "passive") (tstamp 186d89e1-e6a7-44a5-a8a9-6676e9c7419a))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 50 "GP11{slash}SPI_TX1{slash}I2C_SCL1") (pintype "passive") (tstamp f6c8e346-9f0e-4fbf-9471-ceb20aac3a90))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1429,7 +1429,7 @@
 
   (footprint "Connector_Card:SD_Kyocera_145638009211859+" (layer "F.Cu")
     (tedit 5DB0BE56) (tstamp 6f396220-c7c8-4504-b0b9-08653ce40315)
-    (at 30.988 51.1155 180)
+    (at 30.988 77.216)
     (descr "SD Card Connector, Normal Type, Outer Tail, Without Ejector (https://global.kyocera.com/prdct/electro/product/pdf/5638.pdf)")
     (tags "sd card smt")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -1534,33 +1534,33 @@
     (fp_line (start 11.2 11.9) (end 10.6 11.3) (layer "F.Fab") (width 0.1) (tstamp cd15af5e-e594-4e46-87f6-7c516d251ccc))
     (fp_line (start 10.6 5) (end 10.6 11.3) (layer "F.Fab") (width 0.1) (tstamp dabf980d-4748-461d-93de-cbe5410f7c50))
     (fp_line (start -10.6 11.3) (end -10.6 5) (layer "F.Fab") (width 0.1) (tstamp fdec4fe9-0e8a-4fdd-8ebb-bcee886d272a))
-    (pad "" np_thru_hole circle (at 12.1 -5.3) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 6dee884b-1390-4eb2-9e39-113c721c71a4))
-    (pad "" np_thru_hole circle (at -12.1 -5.3) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp c3dda54e-bb6b-4114-944e-59a4703eb67a))
-    (pad "1" smd roundrect (at 6.88 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "" np_thru_hole circle (at 12.1 -5.3 180) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 6dee884b-1390-4eb2-9e39-113c721c71a4))
+    (pad "" np_thru_hole circle (at -12.1 -5.3 180) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp c3dda54e-bb6b-4114-944e-59a4703eb67a))
+    (pad "1" smd roundrect (at 6.88 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 24 "GP9{slash}SPI_CSn1{slash}I2C_SCL0{slash}UART_RX1") (pinfunction "CD/DAT3") (pintype "input") (tstamp 0e1f8072-a37f-4833-bb4d-7155924cec07))
-    (pad "2" smd roundrect (at 4.38 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "2" smd roundrect (at 4.38 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 25 "GP7{slash}SPI_TX0{slash}I2C_SCL1") (pinfunction "CMD") (pintype "input") (tstamp c0488900-8dc2-4a18-a2dd-315fdd2626e0))
-    (pad "3" smd roundrect (at 1.08 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "3" smd roundrect (at 1.08 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 2 "AGND") (pinfunction "VSS") (pintype "power_in") (tstamp abf789a3-bbc4-4914-a814-8667e93740a4))
-    (pad "4" smd roundrect (at -0.62 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "4" smd roundrect (at -0.62 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 1 "+3.3V") (pinfunction "VDD") (pintype "power_in") (tstamp cfe60676-5727-4295-9b97-52e597728526))
-    (pad "5" smd roundrect (at -3.12 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "5" smd roundrect (at -3.12 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 26 "GP6{slash}SPI_SCK0{slash}I2C_SDA1") (pinfunction "CLK") (pintype "input") (tstamp 9f851b71-8c71-431b-afd7-5d2ec726bbfb))
-    (pad "6" smd roundrect (at -5.62 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "6" smd roundrect (at -5.62 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 2 "AGND") (pinfunction "VSS") (pintype "power_in") (tstamp b1e56fdd-d328-41a6-8cb6-e492feff60c4))
-    (pad "7" smd roundrect (at -8.05 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "7" smd roundrect (at -8.05 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 27 "GP8{slash}SPI_RX1{slash}I2C_SDA0{slash}UART_TX1") (pinfunction "DAT0") (pintype "input") (tstamp 3a667f05-cd9f-4019-83f0-ecff06f356af))
-    (pad "8" smd roundrect (at -9.75 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "8" smd roundrect (at -9.75 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 28 "unconnected-(J3-Pad8)") (pinfunction "DAT1") (pintype "input+no_connect") (tstamp b862fe55-ceea-4638-9686-68ec084ee44b))
-    (pad "9" smd roundrect (at 9.38 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "9" smd roundrect (at 9.38 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 29 "unconnected-(J3-Pad9)") (pinfunction "DAT2") (pintype "input+no_connect") (tstamp 033131f7-5ef5-4b00-9af3-16d02c3b4003))
-    (pad "10" smd roundrect (at 2.68 -12.5 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
+    (pad "10" smd roundrect (at 2.68 -12.5) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.313)
       (net 30 "unconnected-(J3-Pad10)") (pinfunction "CARD_DETECT") (pintype "input+no_connect") (tstamp 115f586a-bc4c-4324-aa09-8112ed1c4cfd))
-    (pad "11" smd roundrect (at -13.24 -12.5 180) (size 0.7 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.357)
+    (pad "11" smd roundrect (at -13.24 -12.5) (size 0.7 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.357)
       (net 31 "unconnected-(J3-Pad11)") (pinfunction "WRITE_PROTECT") (pintype "input+no_connect") (tstamp 87ea78f6-fe3e-4ee2-8732-634dd4a9c553))
-    (pad "12" smd roundrect (at 13.2 8.7 180) (size 1.8 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.139)
+    (pad "12" smd roundrect (at 13.2 8.7) (size 1.8 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.139)
       (net 2 "AGND") (pinfunction "SHELL1") (pintype "input") (tstamp 2cf86da4-c11f-4414-98a3-503eb2631879))
-    (pad "13" smd roundrect (at -13.25 9.9 180) (size 1.7 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.147)
+    (pad "13" smd roundrect (at -13.25 9.9) (size 1.7 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.147)
       (net 2 "AGND") (pinfunction "SHELL2") (pintype "input") (tstamp 7c4186b5-c70a-4830-a0bd-ef68fb7808b1))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/SD_Kyocera_145638009211859+.wrl"
       (offset (xyz 0 0 0))
@@ -1571,7 +1571,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 72dc2685-2446-47ef-b46a-22e0009f4356)
-    (at 38.608 107.945 180)
+    (at 85.36 105.41 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -1808,7 +1808,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 7d6d65cd-f65f-41e9-ad21-1cd3f2a9e851)
-    (at 86.868 35.819)
+    (at 85.344 43.693)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -1861,7 +1861,7 @@
 
   (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (layer "F.Cu")
     (tedit 5A030281) (tstamp 7eac0b6e-5f7a-4323-bafb-69f50356bc13)
-    (at 54.356 83.82 -90)
+    (at 57.912 92.466 -90)
     (descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
     (tags "buzzer")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -2236,7 +2236,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e31ab301-25e2-418f-9cd9-dc83cd2bf700)
-    (at 42.148 90.165)
+    (at 81.804 87.63 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -2265,9 +2265,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 5d29fec0-4872-4c39-84e5-62ef4cdfb9c4))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 883112d9-af5f-4b7e-aa39-1f87273557bb))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp eeaa665f-7383-457c-8811-e8fa1ce08518))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 32 "Net-(J4-Pad1)") (pintype "passive") (tstamp 55e40b6d-7a7d-4619-b596-49be6fc938bf))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 52 "GP14{slash}SPI_SCK1{slash}I2C_SDA1") (pintype "passive") (tstamp a1346484-8af4-498b-978e-f8ea644cb374))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2278,7 +2278,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e67ba37b-3be5-45c4-9c11-32a867ec44a3)
-    (at 42.148 80.005)
+    (at 81.788 77.47 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -2307,9 +2307,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp d76dc877-1b13-4a56-8341-4780ac734bc4))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp d9c6f364-ef78-4a5d-8b59-bf02d864301d))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp ec591a55-fda1-4f72-aec5-f8c125fa4621))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 36 "Net-(J4-Pad5)") (pintype "passive") (tstamp 5056ef97-a55d-4e45-9d84-5e97a558e699))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 51 "GP10{slash}SPI_SCK1{slash}I2C_SDA1") (pintype "passive") (tstamp 3239555d-f4cb-4b55-88f5-d629fca484fe))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2320,7 +2320,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e84089b2-6c05-430f-81a5-1faf5c0f3c7f)
-    (at 34.108 67.056 90)
+    (at 27.868 61.2755 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -2349,9 +2349,9 @@
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 57624999-a5ae-45a6-9480-d2743b0caf1d))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 767fc802-10be-40c9-8f09-d0cb244ca593))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp e533f9c3-1128-491a-8a46-1a1bb1f94860))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 1 "+3.3V") (pintype "passive") (tstamp 89210642-d248-409c-a165-6919fdc4f476))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 26 "GP6{slash}SPI_SCK0{slash}I2C_SDA1") (pintype "passive") (tstamp c8fb6927-f2ab-43ec-becc-1e4eb2db3aa9))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2362,7 +2362,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e9015241-3e66-4b19-a676-893935835aee)
-    (at 42.148 85.085)
+    (at 81.772 82.55 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Plik: DL.kicad_sch")
@@ -2391,9 +2391,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 6d912ca6-c2c1-4633-956f-5ac7cf0aa98d))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 7cb0a096-3294-451c-8baf-bd21248f7ebd))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp e100cfa4-82be-4527-9a2d-e3c535e66009))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 34 "Net-(J4-Pad3)") (pintype "passive") (tstamp 089d3265-33c1-40d9-80af-6d57e6e2f15b))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
       (net 49 "GP12{slash}SPI_RX1{slash}I2C_SDA0{slash}UART_TX0") (pintype "passive") (tstamp d855e8a8-ac36-4cb6-87a5-b9a4cd6099a7))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2450,17 +2450,25 @@
   (gr_line locked (start 25.654 15.494) (end 85.09 15.494) (layer "Edge.Cuts") (width 0.1) (tstamp 2e51e057-1947-4d21-a3f6-9eb8462b44ff))
   (gr_line locked (start 25.654 165.354) (end 85.09 165.354) (layer "Edge.Cuts") (width 0.1) (tstamp 3566ec97-a163-46a7-abf7-c7391a5c462b))
   (gr_arc locked (start 85.09 160.02) (mid 86.503503 156.607503) (end 89.916 155.194) (layer "Edge.Cuts") (width 0.1) (tstamp 3c584e0c-6c23-4fdb-8844-8db227a84ff9))
+  (gr_circle locked (center 21.082 123.444) (end 23.622 123.444) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 3f8b791a-cb05-436b-a5b0-0f29162e0afb))
+  (gr_circle locked (center 89.916 57.658) (end 92.456 57.658) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 42ff79f5-7aba-4233-be21-4072d4762c22))
   (gr_line locked (start 20.828 25.654) (end 15.494 25.654) (layer "Edge.Cuts") (width 0.1) (tstamp 4e854bd9-3efd-4a6d-a627-29fba1dc4509))
   (gr_line locked (start 25.654 160.02) (end 25.654 165.354) (layer "Edge.Cuts") (width 0.1) (tstamp 7b09b870-d8c6-4d8e-ab69-f64de272452d))
   (gr_line locked (start 85.09 20.828) (end 85.09 15.494) (layer "Edge.Cuts") (width 0.1) (tstamp 8c09a0f7-3ec8-49f5-ad5b-5cda9e7460a8))
+  (gr_circle locked (center 89.916 123.444) (end 92.456 123.444) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 94dd7c58-d6bf-4547-ab6b-8de0e37bf355))
   (gr_arc locked (start 89.916 25.654) (mid 86.503503 24.240497) (end 85.09 20.828) (layer "Edge.Cuts") (width 0.1) (tstamp 972f569d-cd89-44b5-a8ee-30e99bf37dfa))
   (gr_line locked (start 95.25 155.194) (end 95.25 25.654) (layer "Edge.Cuts") (width 0.1) (tstamp 99860525-9e06-4bd6-a007-41df14d14fdb))
+  (gr_circle locked (center 21.082 57.658) (end 23.622 57.658) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp a5820357-aefc-4e54-afc1-d7fbdb61094c))
   (gr_line locked (start 85.09 160.02) (end 85.09 165.354) (layer "Edge.Cuts") (width 0.1) (tstamp a9b998a5-3b63-475a-ae9c-4ded1cb7b3d7))
   (gr_line locked (start 15.494 25.654) (end 15.494 155.194) (layer "Edge.Cuts") (width 0.1) (tstamp ad530b81-6a5c-4f97-8e93-452d3e9ef089))
   (gr_line locked (start 89.916 25.654) (end 95.25 25.654) (layer "Edge.Cuts") (width 0.1) (tstamp ae34ca85-3607-4b02-a720-7f76e8d7e328))
   (gr_line locked (start 20.828 155.194) (end 15.494 155.194) (layer "Edge.Cuts") (width 0.1) (tstamp bee792b8-9203-4aad-8f99-b15b8c4b4bf6))
   (gr_arc locked (start 20.828 155.194) (mid 24.240497 156.607503) (end 25.654 160.02) (layer "Edge.Cuts") (width 0.1) (tstamp c12bcfd0-f22b-44ee-806d-1ce457b0912f))
   (gr_rect (start 101.854 168.148) (end 96.52 162.814) (layer "User.1") (width 0.15) (fill none) (tstamp 080b8ace-2adc-4e10-b167-50940bc12c92))
+  (target plus (at 89.916 21.082) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp abaf618d-6655-4799-acfb-78bd7f6588da))
+  (target plus (at 21.082 159.004) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp abaf618d-6655-4799-acfb-78bd7f6588da))
+  (target plus (at 21.336 21.082) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp abaf618d-6655-4799-acfb-78bd7f6588da))
+  (target plus (at 89.916 160.02) (size 5) (width 0.1) (layer "Edge.Cuts") (tstamp abaf618d-6655-4799-acfb-78bd7f6588da))
 
   (zone (net 2) (net_name "AGND") (layer "F.Cu") (tstamp 160d8e6c-223b-4384-9fc3-0d947be7cae6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
@@ -2488,16 +2496,6 @@
       )
     )
   )
-  (group "" (id 014150b8-bf2b-45e8-a2c8-379a1cbf4f12)
-    (members
-      075d9c19-4714-4a37-add5-ed387775c362
-      5e132ece-978a-4ed2-96d2-7bc7057d7641
-      9daa9912-e940-4892-aec2-af5c2da81a39
-      e31ab301-25e2-418f-9cd9-dc83cd2bf700
-      e67ba37b-3be5-45c4-9c11-32a867ec44a3
-      e9015241-3e66-4b19-a676-893935835aee
-    )
-  )
   (group "" locked (id 07bb4810-d4e8-4e11-aede-2cf469f26b8a)
     (members
       0c029347-f6a0-49a4-96c0-0365a0ed1131
@@ -2518,11 +2516,30 @@
       ae34ca85-3607-4b02-a720-7f76e8d7e328
     )
   )
+  (group "" (id 63cb6a1e-a707-4a86-92b7-a8ee87308aa4)
+    (members
+      075d9c19-4714-4a37-add5-ed387775c362
+      5e132ece-978a-4ed2-96d2-7bc7057d7641
+      9daa9912-e940-4892-aec2-af5c2da81a39
+      e31ab301-25e2-418f-9cd9-dc83cd2bf700
+      e67ba37b-3be5-45c4-9c11-32a867ec44a3
+      e9015241-3e66-4b19-a676-893935835aee
+    )
+  )
   (group "" locked (id 64c267bd-795b-4198-b4cb-7506721c9ded)
     (members
       7b09b870-d8c6-4d8e-ab69-f64de272452d
       bee792b8-9203-4aad-8f99-b15b8c4b4bf6
       c12bcfd0-f22b-44ee-806d-1ce457b0912f
+    )
+  )
+  (group "" locked (id 905f56d1-8aff-4e24-9f25-dbbe83a2ea84)
+    (members
+      3f8b791a-cb05-436b-a5b0-0f29162e0afb
+      42ff79f5-7aba-4233-be21-4072d4762c22
+      94dd7c58-d6bf-4547-ab6b-8de0e37bf355
+      9aea78df-3dca-44b6-a4c7-387472e7d15c
+      a5820357-aefc-4e54-afc1-d7fbdb61094c
     )
   )
   (group "" locked (id 9aea78df-3dca-44b6-a4c7-387472e7d15c)
